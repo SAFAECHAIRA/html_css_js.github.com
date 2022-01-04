@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>SMIA</title>
+</head>
+<body>
+    <nav class="nav">
+          <div class="logo">SMIA</div>
+          <div class="navitems">
+              <a href="">Home</a>
+              <a href="">HTML</a>
+              <a href="">CSS</a>
+              <a href="">JavaScript</a>
+              <a href="">Contact us</a>
+
+          </div>
+          <div>
+              <img class="search" src="search_icon.png" alt="">
+          </div>
+    </nav>
+    <div class="parentaccueil">
+
+        <img id="img" class="imgaccueil" src="image2.jpg" alt="">
+
+        <button onclick="slidshowprevieus()" class="previeus"><</button>
+
+
+        <div class="parentcontent">
+            <div class="content">
+                <div id="basic" class="basic">Basic template
+                </div>
+                <div id="paragraphe" class="paragraphe">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and
+
+                </div>
+<button class="readbtn">READ MORE</button>            </div>
+        </div>
+        <button onclick="slidshownext()"  class="next">></button>
+
+    </div>
+
+    <div class="abtparent">
+        <div class="titleabt">About Informations
+        </div>
+        <div class="parabt">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and
+        </div>
+        <div class="imgabt"><img class="imgabout" src="about.png" alt=""></div>
+       
+            <button class="readabt">READ MORE</button>
+        
+
+    </div>
+
+    <div class="services">
+        <div class="titleservice">Services</div>
+        <div class="parservice">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of
+            using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</div>
+        <div class="grid">
+            <div class="griditems">
+                <img src="1.jpg" alt="">
+                <div class="titleitems">HTML</div>
+
+            </div>
+            <div class="griditems">
+                <img src="2.jpg" alt="">
+                <div class="titleitems">CSS</div>
+
+            </div>
+            <div class="griditems">
+                <img src="3.jpg" alt="">
+                <div class="titleitems">JAVASCRIPT</div>
+
+            </div>
+        </div>
+    </div>
+
+   <div class="contact">
+
+       <form class="form"  onsubmit="return validatform()" >
+           <div class="titlecontact">Contact us</div>
+           <div >
+               <input id="inptname" class="input" type="text" placeholder="name">
+           </div>
+           <div id="errname"></div>
+           
+           <div >
+            <input id="inptemail" class="input" type="email" placeholder="email">
+        </div>
+        <div id="erremail"></div>
+        <div >
+            <input id="inptpwd" class="input" type="password" placeholder="password">
+        </div>
+      
+        <div id="errpwd"></div>
+
+
+
+        <div>
+            <textarea class="txtarea" placeholder="entre your message " cols="30" rows="10"></textarea>
+        </div>
+        <div class="parentsubmit">
+            <input class="submit" type="submit" value="Submit">
+        </div>
+       </form>
+   </div>
+    <script src="script.js"></script>
+</body>
+</html>
